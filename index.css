@@ -1,0 +1,90 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 2rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.card {
+  background-size: cover;
+  border-radius: 10px;
+  height: 25rem;
+  overflow: hidden;
+  position: relative;
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+
+.card:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-1 {
+  background-image: url("./pic1.jpeg");
+}
+
+.card-2 {
+  background-image: url("./pic2.jpeg");
+}
+
+.card-3 {
+  background-image: url("./pic3.jpeg");
+}
+
+.card-4 {
+  background-image: url("./pic4.jpeg");
+}
+
+.card-5 {
+  background-image: url("./pic5.jpeg");
+}
+
+.card-6 {
+  background-image: url("./pic6.jpeg");
+}
+
+.card-content {
+  position: absolute;
+  padding: 1rem;
+  bottom: 0px;
+  color: #0a0a0a;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  backdrop-filter: blur(0.1rem);
+}
+
+.card-content h2 {
+  font-size: 1.6rem;
+  color: #f0f0f0;
+  margin: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.card-content p {
+  font-size: 1.1rem;
+  font-weight: 200;
+  color: #f0f0f0;
+  margin: 0.5rem 1rem 0.5rem 0rem;
+}
+
+footer {
+  font-weight: 100;
+  color: #a8a8a8;
+  margin: 2rem 2rem 0rem 2rem;
+  text-align: center;
+}
+
+.footer-text {
+  margin: 2rem 2rem 0rem 2rem;
+}
